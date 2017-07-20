@@ -1,4 +1,4 @@
-#!/home/jcloarca/django/test_env/bin/python
+#!/home/jcloarca/django/bin/python
 from django.core import management
 
 if __name__ == "__main__":

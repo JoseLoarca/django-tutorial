@@ -1,4 +1,4 @@
-#!/home/jcloarca/django/test_env/bin/python
+#!/home/jcloarca/django/bin/python
 
 # -*- coding: utf-8 -*-
 import re
