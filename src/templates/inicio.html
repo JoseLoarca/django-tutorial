@@ -9,9 +9,11 @@
     {{ titulo }}
     <hr/>
     <br/>
-   <form method="POST" action="">{% csrf_token %}
-   {{ form.as_p }}
-   <input type="submit" value="Enviar">
-   </form>
+    {% if form %}
+    <form method="POST" action="">{% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Enviar">
+    </form>
+    {% endif %}
   </body>
 </html>
