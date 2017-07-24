@@ -31,7 +31,7 @@ def inicio(request):
         "titulo": "Gracias por registrarte!",
     }
 
-    return render(request, "inicio.html", context)
+    return render(request, "base.html", context)
 
 
 def contact(request):
